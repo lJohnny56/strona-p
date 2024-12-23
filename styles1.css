@@ -1,0 +1,175 @@
+body
+{
+	background:#19E63F;
+}
+
+img 
+{
+	height:center;
+	width:100%;
+	float:left;
+}
+
+a.logo
+{
+	height:auto;
+	width:200px;
+	margin-left:10px;
+	float:left;
+}
+.header 
+{
+	background-color:white;
+	width:100%;
+	top:0;
+	height:85px;
+
+
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  width:100%;
+
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+  
+
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #1CF544;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+   height:470px;
+}
+
+.dropdown-content .header {
+  background: #1CF544;
+  padding: 16px;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  width: 28%;
+  padding: 10px;
+
+  height: 450px;
+  float:left;
+}
+
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  background-color: #ddd;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container
+{
+
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	height:2000px;
+	margin-top:8px;
+
+}
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.n1
+{
+	width:32%;
+	background-color: rgba(0,0,0, 0.0);
+	height:430px;
+	float:left;
+	margin-left:1%;
+	font-size:25px;
+	color:white;
+	font-family:Arial;
+	margin-bottom:1%;
+}
+.n2
+{
+	width:65.5%;
+	background-color: rgba(0,0,0, 0.0);
+	height:430px;
+	float:left;
+	margin-left:1%;
+	font-size:25px;
+	color:white;
+	font-family:Arial;
+	margin-bottom:1%;
+}
+.n3
+{
+	width:98%;
+	background-color: rgba(0,0,0, 0.0);
+	height:430px;
+	float:left;
+	margin-left:1%;
+	margin-right:1%;
+		font-size:25px;
+	color:white;
+	font-family:Arial;
+	margin-bottom:10px;
+}
